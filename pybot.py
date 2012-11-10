@@ -42,6 +42,3 @@ def waitFor(string):
         if buffer.find(string) > -1:
             return
     raise Exception('Failed to find string: ' + string)
-
-if __name__ == '__main__':
-    main()
